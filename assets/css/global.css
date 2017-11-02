@@ -1,0 +1,317 @@
+
+
+body{
+
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+
+
+.content-body{
+
+    height: 100%;
+
+}
+.wrapper{
+  height:80vh;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+
+.admin-wrapper{
+
+    margin-top:20px;
+}
+.inner-wrapper{
+
+    width:300px;
+}
+.inner-wrapper2{
+    
+        width:400px;
+}
+
+.register .flexpage{
+
+  margin-top: 20px;
+}
+.flexpage{
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: middle !important;
+    border-top: 1px solid #e9ecef;
+}
+.inner-wrapper3{
+    
+        width:100%;
+}
+
+.bg-img{
+  position:relative;
+  /*opacity:0.70;*/
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+.bg-img{
+  background-image:url('../../assets/img/background.jpg');
+  min-height:100%;
+}
+
+
+table{
+  font-size:15px;
+  border: 1px solid #ddd;
+}
+
+/*** Button styles ****/
+
+
+
+#home{
+    height:100vh;
+    margin-top: 10px;
+}
+
+#notification{
+  height: 200px;
+}
+
+#home .col-m-3{
+      padding-left: 0 !important;
+}
+.messages{
+  width: 100% !important;
+}
+
+.custom-card{
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: 80vh;
+
+}
+.notification-card  {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    overflow-x: scroll;
+    height: 90vh;
+}
+.notification-bar{
+
+   height: 100vh;
+   padding-left: 0 !important;
+}
+.notification .list-group {
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* padding-left: 0; */
+    height: 100% !important;
+    overflow-y: scroll !important;
+    /* margin-bottom: 0; */
+}
+.user-header {
+    background: #ff5db1;
+    background: -moz-linear-gradient(top, #ff5db1 0%, #ef017c 100%);
+    background: -webkit-linear-gradient(top, #ff5db1 0%,#ef017c 100%);
+    background: linear-gradient(to bottom, #ff5db1 0%,#ef017c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c',GradientType=0 );
+    color: #fff !important;
+}
+
+
+
+
+
+ /*.navbar-default.active {
+    border-color: transparent;
+    background-color: #EC407A;
+    transition: 0.7s;
+}*/
+
+
+
+
+/*input style */
+
+.frame .custom-input{
+
+	background-color: #f5f5f5;
+    border: 3px solid #f5f5f5;
+    padding: 5px 5px 5px 10px;
+    width: 100%;
+    outline: none;
+    font-size:14px;
+    margin:10px;
+}
+
+.frame .input-label{
+
+    color:#fff;
+    font-family: arial, verdana, sans-serif;
+
+
+}
+.frame .options{
+    background-color: transparent;
+    color:#fff;
+}
+
+
+
+/*************************************/
+/* footer styeles */
+
+
+
+
+/* Admin page styles
+*/
+
+.admin-page{
+   margin-top:64px;
+}
+
+#sidebar{
+
+    background-color: #212121;
+    height: 100%;
+    padding-top: 10px;
+}
+
+#sidebar ul > li > a{
+
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase;
+
+
+}
+#sidebar ul > li > a:hover{
+
+    color:#EC407A;
+
+}
+
+.subheader{
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:0.2em;
+    padding:20px 20px 20px 50px;
+   text-align: center;
+}
+
+
+/* Footer style */
+footer{
+
+    bottom:0;
+    left:0;
+    right:0;
+    padding:10px;
+
+}
+
+
+.panel-default > .panel-heading {
+    color: #212121;
+    border-color: #ddd;
+    background-color: #fff; 
+}
+
+
+.notification{
+
+    height:100vh;
+}
+
+.flex-message{
+
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #ec407a !important;
+    border-color: #ec407a !important;
+}
+
+.member .modal-body{
+
+   background-color: #f4f4f4 !important;
+}
+.content-message{
+
+  background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.loan-records{
+    height: 39vh;
+    overflow-y:scroll;
+    background-color: #e9ecef;
+}
+
+.drop_down{
+  color: #333;
+  text-decoration: none;
+}
+
+.drop_down:hover {
+    color: #818182;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.text-lc {
+    color: #ef017c!important;
+}
+
+.top-m{
+
+    margin-top:20px;
+}

@@ -1,0 +1,37 @@
+
+.custom-input{
+	background-color: #fff;
+    border: 1px solid #bbb !important;
+    padding: 5px 5px 5px 10px !important;
+    width: 350px;
+    outline: none;
+    font-size: 14px !important;
+    margin: 10px;
+    border-radius: 5px !important;
+}
+ .btn-flat {
+    background-color: #ff80ab;
+    border: 3px solid #EC407A;
+    padding: 5px;
+    width: 350px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+ .btn-flat:hover{
+    background-color: #EC407A;
+    color:#fff;
+    border: 3px solid #ff80ab;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.btn-flat2 {
+    font-size: 16px;
+    text-decoration: none;
+    color: #2196f3;
+}
